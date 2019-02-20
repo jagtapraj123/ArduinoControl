@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="16dp"
+    tools:context=".ArduinoControl">
+
+    <LinearLayout
+        android:id="@+id/LayoutBtns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <ToggleButton
+                android:id="@+id/pin2"
+                style="@style/pinBtn"
+                android:text="Pin 2"
+                android:textOff="Pin 2"
+                android:textOn="Pin 2"/>
+
+            <ToggleButton
+                android:id="@+id/pin3"
+                style="@style/pinBtn"
+                android:text="Pin 3"
+                android:textOff="Pin 3"
+                android:textOn="Pin 3" />
+
+            <ToggleButton
+                android:id="@+id/pin4"
+                style="@style/pinBtn"
+                android:text="Pin 4"
+                android:textOff="Pin 4"
+                android:textOn="Pin 4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <ToggleButton
+                android:id="@+id/pin5"
+                style="@style/pinBtn"
+                android:text="Pin 5"
+                android:textOff="Pin 5"
+                android:textOn="Pin 5" />
+
+            <ToggleButton
+                android:id="@+id/pin6"
+                style="@style/pinBtn"
+                android:text="Pin 6"
+                android:textOff="Pin 6"
+                android:textOn="Pin 6" />
+
+            <ToggleButton
+                android:id="@+id/pin7"
+                style="@style/pinBtn"
+                android:text="Pin 7"
+                android:textOff="Pin 7"
+                android:textOn="Pin 7" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <ToggleButton
+                android:id="@+id/pin8"
+                style="@style/pinBtn"
+                android:text="Pin 8"
+                android:textOff="Pin 8"
+                android:textOn="Pin 8" />
+
+            <ToggleButton
+                android:id="@+id/pin9"
+                style="@style/pinBtn"
+                android:text="Pin 9"
+                android:textOff="Pin 9"
+                android:textOn="Pin 9" />
+
+            <ToggleButton
+                android:id="@+id/pin10"
+                style="@style/pinBtn"
+                android:text="Pin 10"
+                android:textOff="Pin 10"
+                android:textOn="Pin 10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/pin11"
+                style="@style/pinBtn"
+                android:text="Pin 11"
+                android:textOff="Pin 11"
+                android:textOn="Pin 11" />
+
+            <ToggleButton
+                android:id="@+id/pin12"
+                style="@style/pinBtn"
+                android:text="Pin 12"
+                android:textOff="Pin 12"
+                android:textOn="Pin 12" />
+
+            <ToggleButton
+                android:id="@+id/pin13"
+                style="@style/pinBtn"
+                android:text="Pin 13"
+                android:textOff="Pin 13"
+                android:textOn="Pin 13" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LayoutBtns"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/stat2"
+                style="@style/pinStatus"/>
+
+            <TextView
+                android:id="@+id/stat3"
+                style="@style/pinStatus"/>
+
+            <TextView
+                android:id="@+id/stat4"
+                style="@style/pinStatus"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/stat5"
+                style="@style/pinStatus"/>
+
+            <TextView
+                android:id="@+id/stat6"
+                style="@style/pinStatus"/>
+
+            <TextView
+                android:id="@+id/stat7"
+                style="@style/pinStatus"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/stat8"
+                style="@style/pinStatus"/>
+
+            <TextView
+                android:id="@+id/stat9"
+                style="@style/pinStatus"/>
+
+            <TextView
+                android:id="@+id/stat10"
+                style="@style/pinStatus"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/stat11"
+                style="@style/pinStatus"/>
+
+            <TextView
+                android:id="@+id/stat12"
+                style="@style/pinStatus"/>
+
+            <TextView
+                android:id="@+id/stat13"
+                style="@style/pinStatus"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disconnect"
+        android:id="@+id/buttonDIS"
+        android:layout_above="@id/adViewBan2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewBan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_arduino_uno_controller_ad">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

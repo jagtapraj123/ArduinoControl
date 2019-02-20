@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "523216038381",
+    "firebase_url": "https://arduino-controller-50675.firebaseio.com",
+    "project_id": "arduino-controller-50675",
+    "storage_bucket": "arduino-controller-50675.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523216038381:android:14f8e9d5d0cf04d0",
+        "android_client_info": {
+          "package_name": "jagtap.raj.arduinocontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523216038381-117no209057dh4v9b7hssf8qig6telj8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jagtap.raj.arduinocontrol",
+            "certificate_hash": "6d366e60bbd96435fad5e8aee06f42849eed49ff"
+          }
+        },
+        {
+          "client_id": "523216038381-8404948d20kkt7dco4t0bmehhridie1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQu8MwdmpxrliCHpPz64z9yoy-5NFU0Rk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523216038381-8404948d20kkt7dco4t0bmehhridie1n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-3160985073700492~5487517240"
+    }
+  ],
+  "configuration_version": "1"
+}
