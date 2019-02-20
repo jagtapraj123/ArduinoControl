@@ -40,15 +40,4 @@
         android:layout_above="@id/button"
         android:layout_below="@id/textView"/>
 
-    <com.google.android.gms.ads.AdView
-        xmlns:ads="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/adViewBan1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        ads:adSize="SMART_BANNER"
-        ads:adUnitId="@string/banner_device_list_ad">
-    </com.google.android.gms.ads.AdView>
-
 </RelativeLayout>
