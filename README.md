@@ -4,7 +4,7 @@ Arduino Controller is created for demo of how to connect Arduino using HC-05 (Bl
 
 ## Requirements
 
-1. Android Studio [Windows]() [Mac]() [Linux]()
+1. Android Studio [Windows](https://developer.android.com/studio#downloads) [Mac](https://developer.android.com/studio#downloads) [Linux](https://developer.android.com/studio#downloads)
 
 ## Usage
 
@@ -37,4 +37,4 @@ It was created as a part of the workshop on making remote-controlled car using A
 Any suggestions on improving are appreciated.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[GNU GPLv3](https://github.com/jagtapraj123/ArduinoControl/blob/master/LICENSE)
